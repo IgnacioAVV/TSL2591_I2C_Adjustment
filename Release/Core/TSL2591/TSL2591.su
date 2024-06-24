@@ -1,0 +1,16 @@
+../Core/TSL2591/TSL2591.c:61:7:TSL2591_Write_Byte.constprop	0	static
+../Core/TSL2591/TSL2591.c:23:9:TSL2591_Read_Byte	32	static
+../Core/TSL2591/TSL2591.c:42:11:TSL2591_Read_Word	32	static
+../Core/TSL2591/TSL2591.c:61:7:TSL2591_Write_Byte	0	static
+../Core/TSL2591/TSL2591.c:73:7:TSL2591_Enable	0	static
+../Core/TSL2591/TSL2591.c:82:7:TSL2591_Disable	0	static
+../Core/TSL2591/TSL2591.c:91:8:TSL2591_Get_Gain	8	static
+../Core/TSL2591/TSL2591.c:109:7:TSL2591_Set_Gain	16	static
+../Core/TSL2591/TSL2591.c:128:10:TSL2591_Get_IntegralTime	8	static
+../Core/TSL2591/TSL2591.c:148:7:TSL2591_Set_IntegralTime	16	static
+../Core/TSL2591/TSL2591.c:166:6:TSL2591_Read_Channel0	8	static
+../Core/TSL2591/TSL2591.c:170:6:TSL2591_Read_Channel1	8	static
+../Core/TSL2591/TSL2591.c:179:7:TSL2591_Init	8	static
+../Core/TSL2591/TSL2591.c:197:8:TSL2591_Read_Lux	40	static
+../Core/TSL2591/TSL2591.c:273:7:TSL2591_SET_InterruptThreshold	8	static
+../Core/TSL2591/TSL2591.c:295:7:TSL2591_SET_LuxInterrupt	8	static

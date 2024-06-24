@@ -44,7 +44,7 @@ typedef struct {
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-extern uint8_t DEV_ModuleInit(I2C_HandleTypeDef *i2c, uint8_t address);
+extern uint8_t DEV_ModuleInit(I2C_HandleTypeDef *i2c_handle, uint8_t address);
 
 
 /* USER CODE END PD */
@@ -161,13 +161,13 @@ int main(void)
 
 	  LuxSensor1.value1 = TSL2591_Read_Lux(&TSL_LuxSensor1); // Lux data for Tsl Sensor 1
 	  LuxSensor1.value2 = TSL2591_Read_Channel1(&TSL_LuxSensor1);
-	  LuxSensor1.value1 = TSL_LuxSensor1.data_read1;    // Lux data read for Tsl Sensor 1
-	  LuxSensor1.value2 = TSL_LuxSensor1.data_read2;   // Ir Channel data read for Tsl Sensor 1
+//	  LuxSensor1.value1 = TSL_LuxSensor1.data_read1;    // Lux data read for Tsl Sensor 1
+//	  LuxSensor1.value2 = TSL_LuxSensor1.data_read2;   // Ir Channel data read for Tsl Sensor 1
 
 	  LuxSensor1.value1 = TSL2591_Read_Lux(&TSL_LuxSensor2);
 	  LuxSensor1.value2 = TSL2591_Read_Channel1(&TSL_LuxSensor2); // Lux data for Tsl Sensor 1
-	  LuxSensor1.value1 = TSL_LuxSensor2.data_read1;    // Lux data read for Tsl Sensor 1
-	  LuxSensor1.value2 = TSL_LuxSensor2.data_read2;   // Ir Channel data read for Tsl Sensor 1
+//	  LuxSensor1.value1 = TSL_LuxSensor2.data_read1;    // Lux data read for Tsl Sensor 1
+//	  LuxSensor1.value2 = TSL_LuxSensor2.data_read2;   // Ir Channel data read for Tsl Sensor 1
 
 
       //	  LuxSensor1.value2 = TSL2591_Read_Channel1(sensor);

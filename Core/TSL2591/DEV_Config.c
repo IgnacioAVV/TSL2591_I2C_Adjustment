@@ -130,10 +130,10 @@ int I2C_Read_Word(I2C_HandleTypeDef *i2c, uint8_t device_index, uint8_t Cmd)
     return 0;  // Manejar errores apropiadamente si es necesario
 }
 
-UBYTE DEV_ModuleInit(I2C_HandleTypeDef *i2c, uint8_t address)
+UBYTE DEV_ModuleInit(I2C_HandleTypeDef *i2c_handle, uint8_t address)
 {
     GPIO_Config();  // Configurar pines GPIO si es necesario
-    DEV_I2C_Init(i2c, address);  // Inicializar el primer dispositivo I2C
+    DEV_I2C_Init(i2c_handle, address);  // Inicializar el primer dispositivo I2C
     return 0;  // Retornar el estado de inicialización (éxito o falla)
 }
 

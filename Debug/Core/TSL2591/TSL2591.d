@@ -24,8 +24,8 @@ Core/TSL2591/TSL2591.o: ../Core/TSL2591/TSL2591.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/main.h ../Core/Inc/usart.h ../Core/Inc/main.h \
- ../Core/Inc/i2c.h ../Core/TSL2591/TSL2591.h
+ ../Core/Inc/main.h ../Core/Inc/i2c.h ../Core/Inc/main.h \
+ ../Core/TSL2591/TSL2591.h
 ../Core/TSL2591/DEV_Config.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -52,7 +52,6 @@ Core/TSL2591/TSL2591.o: ../Core/TSL2591/TSL2591.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 ../Core/Inc/main.h:
-../Core/Inc/usart.h:
-../Core/Inc/main.h:
 ../Core/Inc/i2c.h:
+../Core/Inc/main.h:
 ../Core/TSL2591/TSL2591.h:

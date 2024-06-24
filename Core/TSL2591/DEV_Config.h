@@ -9,7 +9,7 @@
 #include "stm32f1xx_hal.h"
 #include "main.h"
 
-#include "usart.h"
+//#include "usart.h"
 #include "i2c.h"
 
 #include <stdint.h>
@@ -26,7 +26,7 @@
 #define UWORD   uint16_t
 #define UDOUBLE uint32_t
 
-#define INT_PIN INT_GPIO_Port,INT_Pin
+//#define INT_PIN INT_GPIO_Port,INT_Pin
 
 /**
  * GPIO read and write
@@ -41,7 +41,7 @@ typedef struct {
 } DEV_Info;
 
 
-uint8_t DEV_ModuleInit(I2C_HandleTypeDef *i2c, uint8_t address);
+uint8_t DEV_ModuleInit(I2C_HandleTypeDef *i2c_handle, uint8_t address);
 void    DEV_ModuleExit(void);
 
 void DEV_I2C_Init(I2C_HandleTypeDef *i2c, uint8_t address);
